@@ -35,6 +35,8 @@ function evaluate(code: string) {
 		return new Promise(fulfil => {
 			const id = `__shimport__${uid++}`;
 
+			code = code.replace('[object Blob]', '[Blob]'); // hotfix to avoid error in IE with Svelte/Sapper
+
 			// creating a script tag gives us proper stack traces
 			const blob = new Blob([`${id}=${code}`], {
 				type: 'application/javascript'
