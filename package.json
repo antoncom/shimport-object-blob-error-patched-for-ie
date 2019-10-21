@@ -2,7 +2,7 @@
   "name": "shimport",
   "description": "Shim for dynamic import()",
   "version": "1.0.1",
-  "repository": "Rich-Harris/shimport",
+  "repository": "antoncom/shimport-object-blob-error-patched-for-ie",
   "main": "index.js",
   "files": [
     "index.js",
