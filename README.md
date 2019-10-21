@@ -5,5 +5,5 @@ This patch calms it down.
 
 ## Thanks
 
-* Rich Harris projects in general and [Shimport](https://github.com/Rich-Harris/shimport) in particulary.
+* Rich Harris projects in general and its [Shimport](https://github.com/Rich-Harris/shimport) in particulary.
 * The [sapper.svelte.dev](https://sapper.svelte.dev) project.
